@@ -40,7 +40,7 @@ namespace SimpleAPI
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection(); //Juan G
             app.UseMvc();
         }
     }
